@@ -134,6 +134,10 @@ const resetAnalyticsData = async () => {
 * [`setEnabled(...)`](#setenabled)
 * [`isEnabled()`](#isenabled)
 * [`resetAnalyticsData()`](#resetanalyticsdata)
+* [`initiateOnDeviceConversionMeasurementWithEmail(...)`](#initiateondeviceconversionmeasurementwithemail)
+* [`initiateOnDeviceConversionMeasurementWithPhoneNumber(...)`](#initiateondeviceconversionmeasurementwithphonenumber)
+* [`initiateOnDeviceConversionMeasurementWithHashedEmail(...)`](#initiateondeviceconversionmeasurementwithhashedemail)
+* [`initiateOnDeviceConversionMeasurementWithHashedPhoneNumber(...)`](#initiateondeviceconversionmeasurementwithhashedphonenumber)
 * [Interfaces](#interfaces)
 * [Enums](#enums)
 
@@ -314,6 +318,82 @@ Only available for Android and iOS.
 --------------------
 
 
+### initiateOnDeviceConversionMeasurementWithEmail(...)
+
+```typescript
+initiateOnDeviceConversionMeasurementWithEmail(options: InitiateOnDeviceConversionMeasurementWithEmailOptions) => Promise<void>
+```
+
+Initiates on-device conversion measurement with an email address.
+
+Only available for iOS.
+
+| Param         | Type                                                                                                                                    |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **`options`** | <code><a href="#initiateondeviceconversionmeasurementwithemailoptions">InitiateOnDeviceConversionMeasurementWithEmailOptions</a></code> |
+
+**Since:** 6.3.1
+
+--------------------
+
+
+### initiateOnDeviceConversionMeasurementWithPhoneNumber(...)
+
+```typescript
+initiateOnDeviceConversionMeasurementWithPhoneNumber(options: InitiateOnDeviceConversionMeasurementWithPhoneNumberOptions) => Promise<void>
+```
+
+Initiates on-device conversion measurement with a phone number.
+
+Only available for iOS.
+
+| Param         | Type                                                                                                                                                |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`options`** | <code><a href="#initiateondeviceconversionmeasurementwithphonenumberoptions">InitiateOnDeviceConversionMeasurementWithPhoneNumberOptions</a></code> |
+
+**Since:** 6.3.1
+
+--------------------
+
+
+### initiateOnDeviceConversionMeasurementWithHashedEmail(...)
+
+```typescript
+initiateOnDeviceConversionMeasurementWithHashedEmail(options: InitiateOnDeviceConversionMeasurementWithHashedEmailOptions) => Promise<void>
+```
+
+Initiates on-device conversion measurement with a hashed email address.
+
+Only available for iOS.
+
+| Param         | Type                                                                                                                                                |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`options`** | <code><a href="#initiateondeviceconversionmeasurementwithhashedemailoptions">InitiateOnDeviceConversionMeasurementWithHashedEmailOptions</a></code> |
+
+**Since:** 6.3.1
+
+--------------------
+
+
+### initiateOnDeviceConversionMeasurementWithHashedPhoneNumber(...)
+
+```typescript
+initiateOnDeviceConversionMeasurementWithHashedPhoneNumber(options: InitiateOnDeviceConversionMeasurementWithHashedPhoneNumberOptions) => Promise<void>
+```
+
+Initiates on-device conversion measurement with a hashed phone number.
+
+Only available for iOS.
+
+| Param         | Type                                                                                                                                                            |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`options`** | <code><a href="#initiateondeviceconversionmeasurementwithhashedphonenumberoptions">InitiateOnDeviceConversionMeasurementWithHashedPhoneNumberOptions</a></code> |
+
+**Since:** 6.3.1
+
+--------------------
+
+
 ### Interfaces
 
 
@@ -382,6 +462,34 @@ Only available for Android and iOS.
 | Prop          | Type                 | Since |
 | ------------- | -------------------- | ----- |
 | **`enabled`** | <code>boolean</code> | 0.1.0 |
+
+
+#### InitiateOnDeviceConversionMeasurementWithEmailOptions
+
+| Prop               | Type                | Description                                                          | Since |
+| ------------------ | ------------------- | -------------------------------------------------------------------- | ----- |
+| **`emailAddress`** | <code>string</code> | The email address to initiate on-device conversion measurement with. | 6.3.1 |
+
+
+#### InitiateOnDeviceConversionMeasurementWithPhoneNumberOptions
+
+| Prop              | Type                | Description                                                         | Since |
+| ----------------- | ------------------- | ------------------------------------------------------------------- | ----- |
+| **`phoneNumber`** | <code>string</code> | The phone number to initiate on-device conversion measurement with. | 6.3.1 |
+
+
+#### InitiateOnDeviceConversionMeasurementWithHashedEmailOptions
+
+| Prop                     | Type                | Description                                                          | Since |
+| ------------------------ | ------------------- | -------------------------------------------------------------------- | ----- |
+| **`emailAddressToHash`** | <code>string</code> | The email address to initiate on-device conversion measurement with. | 6.3.1 |
+
+
+#### InitiateOnDeviceConversionMeasurementWithHashedPhoneNumberOptions
+
+| Prop                    | Type                | Description                                                         | Since |
+| ----------------------- | ------------------- | ------------------------------------------------------------------- | ----- |
+| **`phoneNumberToHash`** | <code>string</code> | The phone number to initiate on-device conversion measurement with. | 6.3.1 |
 
 
 ### Enums

@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/master.swiftdeps"
+  },
+  "/Users/mrenc/capacitor-firebase/packages/analytics/ios/Plugin/FirebaseAnalytics.swift": {
+    "dependencies": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalytics.d",
+    "object": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalytics.swift.o",
+    "swiftmodule": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalytics~partial.swiftmodule",
+    "swift-dependencies": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalytics.swiftdeps"
+  },
+  "/Users/mrenc/capacitor-firebase/packages/analytics/ios/Plugin/FirebaseAnalyticsHelper.swift": {
+    "dependencies": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalyticsHelper.d",
+    "object": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalyticsHelper.swift.o",
+    "swiftmodule": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalyticsHelper~partial.swiftmodule",
+    "swift-dependencies": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalyticsHelper.swiftdeps"
+  },
+  "/Users/mrenc/capacitor-firebase/packages/analytics/ios/Plugin/FirebaseAnalyticsPlugin.swift": {
+    "dependencies": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalyticsPlugin.d",
+    "object": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalyticsPlugin.swift.o",
+    "swiftmodule": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalyticsPlugin~partial.swiftmodule",
+    "swift-dependencies": "/Users/mrenc/capacitor-firebase/packages/analytics/.build/arm64-apple-macosx/debug/FirebaseAnalyticsPlugin.build/FirebaseAnalyticsPlugin.swiftdeps"
+  }
+}

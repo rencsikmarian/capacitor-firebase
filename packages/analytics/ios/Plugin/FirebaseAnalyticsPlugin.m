@@ -14,4 +14,8 @@ CAP_PLUGIN(FirebaseAnalyticsPlugin, "FirebaseAnalytics",
            CAP_PLUGIN_METHOD(setEnabled, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(isEnabled, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(resetAnalyticsData, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(initiateOnDeviceConversionMeasurementWithEmail, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(initiateOnDeviceConversionMeasurementWithPhoneNumber, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(initiateOnDeviceConversionMeasurementWithHashedEmail, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(initiateOnDeviceConversionMeasurementWithHashedPhoneNumber, CAPPluginReturnPromise);
 )

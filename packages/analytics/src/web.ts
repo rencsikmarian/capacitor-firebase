@@ -12,6 +12,10 @@ import {
 import type {
   FirebaseAnalyticsPlugin,
   GetAppInstanceIdResult,
+  InitiateOnDeviceConversionMeasurementWithEmailOptions,
+  InitiateOnDeviceConversionMeasurementWithPhoneNumberOptions,
+  InitiateOnDeviceConversionMeasurementWithHashedEmailOptions,
+  InitiateOnDeviceConversionMeasurementWithHashedPhoneNumberOptions,
   IsEnabledResult,
   LogEventOptions,
   SetConsentOptions,
@@ -104,6 +108,30 @@ export class FirebaseAnalyticsWeb
   }
 
   public async resetAnalyticsData(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  public async initiateOnDeviceConversionMeasurementWithEmail(
+    _options: InitiateOnDeviceConversionMeasurementWithEmailOptions,
+  ): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  public async initiateOnDeviceConversionMeasurementWithPhoneNumber(
+    _options: InitiateOnDeviceConversionMeasurementWithPhoneNumberOptions,
+  ): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  public async initiateOnDeviceConversionMeasurementWithHashedEmail(
+    _options: InitiateOnDeviceConversionMeasurementWithHashedEmailOptions,
+  ): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  public async initiateOnDeviceConversionMeasurementWithHashedPhoneNumber(
+    _options: InitiateOnDeviceConversionMeasurementWithHashedPhoneNumberOptions,
+  ): Promise<void> {
     throw this.unimplemented('Not implemented on web.');
   }
 }
